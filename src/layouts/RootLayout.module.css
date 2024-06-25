@@ -1,0 +1,108 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  /* border: 2px solid red; */
+}
+.navItems {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.navItems a:hover {
+  text-decoration: underline;
+}
+.cod {
+  color: #c190ff;
+  font-size: 2rem;
+}
+.prog {
+  color: #ceff90;
+  font-size: 2rem;
+}
+.logo {
+  font-size: 2rem;
+}
+
+.logoutButton {
+  padding: 0.3rem 0.5rem;
+  font-size: 1.01rem;
+  font-weight: 500;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border: none;
+  border-radius: 3px;
+}
+
+.logoutButton{
+
+background-color: #8e34ff;
+    color: #fff;
+    padding: .7rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-top: 1rem;
+
+}
+
+.loginbtn{
+  color: #fff;
+  background-color: #8e34ff;
+    padding: .7rem 1.2rem;
+    font-size: .3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-top: 1rem;
+
+}
+
+.signupbtn{
+  color: #fff;
+  background-color: #8e34ff;
+    padding: .7rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-top: 1rem;
+}
+
+.mycourses{
+  color: #fff;
+  background-color: #8e34ff;
+    padding: .7rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-top: 1rem;
+  
+
+}
+
+.aboutbtn{
+  color: #fff;
+  background-color: #8e34ff;
+    padding: .7rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-top: 1rem;
+  
+
+}
+
+
+.logoutSvg {
+  width: 1em;
+}
