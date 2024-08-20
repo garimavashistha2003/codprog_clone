@@ -1,16 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-import {  supabase_api_key } from "../constants";
+import { supabase_api_key } from "../constants";
 import axios from "axios";
 import { getUser } from "../utils/getUser";
 import { useLoaderData } from "react-router-dom";
@@ -19,7 +7,6 @@ import ReactPlayer from "react-player/vimeo";
 import { useState } from "react";
 
 export async function myCourseVideosLoader({ params }) {
-
   const { courseID } = params;
   const { access_token } = await getUser();
 
@@ -35,7 +22,7 @@ export async function myCourseVideosLoader({ params }) {
   const videos = await Promise.all(
     modules.map((module) => {
       return axios.get(
-      `https://uiofydrduzltnagajzvr.supabase.co/rest/v1/videos?module_id=eq.${module.id}&select=*`,
+        `https://uiofydrduzltnagajzvr.supabase.co/rest/v1/videos?module_id=eq.${module.id}&select=*`,
         {
           headers: {
             apikey: supabase_api_key,

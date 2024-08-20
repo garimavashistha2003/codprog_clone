@@ -54,6 +54,7 @@ export async function loginAction({ request }) {
   } catch (error) {
     localStorage.removeItem("user");
     if (error.response.status === 400) {
+      
       return { error: "Wrong username or password" };
     } else {
       return { error: error?.response?.data?.message || error.message };
